@@ -1,0 +1,61 @@
+
+#Running the nginx webserver
+docker run --name jay-nginx -p 8080:80 -d nginx
+
+#Persistence local drive mapping
+docker run --name jay-nginx -v /fornginx/html:/usr/share/nginx/html:ro -p 8080:80 -d nginx
+
+
+
+docker run -it -d ubuntu
+docker images
+docker ps -a
+docker rm contaniername or instance id
+docker rmi imagename
+docker exec -it bash
+apt-get update
+apt-get install nginx
+service nginx reload
+service nginx restart
+apt-get install curl
+curl localhost
+apt-get install node-js
+apt-get install npm
+apt-get install vim
+
+
+
+
+# Index html file on the local drive but served from the container
+docker run --name jwebserver -v h:/dockerdrive/nginx/html:/usr/share/nginx/html -p 8080:80 -d nginx
+
+# Plain simple nginx
+docker run --name jwebserver -p 8080:80 -d nginx
+
+docker exec -it jwebserver bash
+
+docker ps -a; docker stop jwebserver; docker rm jwebserver
+
+docker ps -a
+
+
+docker build -t sibimanu/my1stwebapp .
+docker run -p 5000:8888 --name testing  sibimanu/my1stwebapp
+
+
+docker-compose version 1.11.2, build f963d76f
+docker-py version: 2.1.0
+CPython version: 2.7.13
+OpenSSL version: OpenSSL 1.0.2j  26 Sep 2016
+
+docker-compose version 1.14.0, build c7bdf9e3
+docker-py version: 2.3.0
+CPython version: 2.7.13
+OpenSSL version: OpenSSL 1.0.2j  26 Sep 2016
+
+
+Docker version 17.06.0-ce-rc5, build b7e4173
+Docker version 17.06.0-ce-rc5, build b7e4173
+
+
+
