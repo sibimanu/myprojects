@@ -43,19 +43,24 @@ docker build -t sibimanu/my1stwebapp .
 docker run -p 5000:8888 --name testing  sibimanu/my1stwebapp
 
 
-docker-compose version 1.11.2, build f963d76f
-docker-py version: 2.1.0
-CPython version: 2.7.13
-OpenSSL version: OpenSSL 1.0.2j  26 Sep 2016
-
+Docker Edge is used.
+---------------------------------------------
+Docker version 17.06.0-ce-rc5, build b7e4173
 docker-compose version 1.14.0, build c7bdf9e3
 docker-py version: 2.3.0
 CPython version: 2.7.13
 OpenSSL version: OpenSSL 1.0.2j  26 Sep 2016
 
 
+Docker Steady:
+---------------------------------------------
 Docker version 17.06.0-ce-rc5, build b7e4173
-Docker version 17.06.0-ce-rc5, build b7e4173
+docker-compose version 1.11.2, build f963d76f
+docker-py version: 2.1.0
+CPython version: 2.7.13
+OpenSSL version: OpenSSL 1.0.2j  26 Sep 2016
+
+
 
 
 
