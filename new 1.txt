@@ -1,0 +1,18 @@
+Kubernetes Resource Types
+
+Kubernetes has five main resource types that can be created and configured using a YAML or a JSON file, or using OpenShift management tools:
+
+Pods
+Represent a collection of containers that share resources, such as IP addresses and persistent storage volumes. It is the basic unit of work for Kubernetes.
+
+Services
+Define a single IP/port combination that provides access to a pool of pods. By default, services connect clients to pods in a round-robin fashion.
+
+Replication Controllers
+A framework for defining pods that are meant to be horizontally scaled. A replication controller includes a pod definition that is to be replicated, and the pods created from it can be scheduled to different nodes.
+
+Persistent Volumes (PV)
+Provision persistent networked storage to pods that can be mounted inside a container to store data.
+
+Persistent Volume Claims (PVC)
+Represent a request for storage by a pod to Kubernetes.

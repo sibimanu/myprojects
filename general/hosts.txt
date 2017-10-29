@@ -1,0 +1,60 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+# My Home Network 
+
+#Jay Personal
+192.168.86.10		jay			#Jay Laptop Personal Windows 10 - LAN
+192.168.86.11		jay1		#Jay Laptop Personal Windows 10 - WiFi
+
+#Jay Office
+192.168.86.12		jay			#Jay Laptop Office Windows 7 - LAN
+192.168.86.13		jay1		#Jay Laptop Office Windows 7 - WiFi
+
+#Jay Other Devices
+192.168.86.14		nexus5
+192.168.86.15		nexus4
+192.168.86.16		kindle
+
+#Megha
+192.168.86.20		megha
+192.168.86.21		lgg3
+192.168.86.22		lgtab
+
+
+#Sibi
+192.168.86.30		iphonese
+
+#Manu
+192.168.86.40		manupc
+192.168.86.41		samsungs4
+192.168.86.42		samsungtaba
+
+
+
+
+#Jay Virtual Machines
+192.168.86.100		dockerhost	#ubuntu 17.04 server on Virtual Box - Docker
+192.168.86.101		ansible		#ubuntu 16.04 server on Virtual Box - Ansible
+
+
+

@@ -1,0 +1,52 @@
+Ubuntu:
+--------------------------------------------------------------------------------
+
+sudo apt-get dist-upgrade
+sudo apt-get update
+
+
+Docker
+--------------------------------------------------------------------------------
+
+sudo curl -sSL https://get.docker.io/ | sh
+
+sudo usermod -aG docker jay
+
+docker version
+
+
+sudo docker pull hello-world
+sudo docker images
+sudo docker images --no-trunc
+
+sudo service docker status
+sudo service docker restart
+sudo service docker start
+sudo service docker stop
+journalctl -u docker
+
+sudo docker search busybox
+sudo docker pull busybox
+sudo docker pull busybox:1.24
+
+sudo docker run -i -t ubuntu:16.04 /bin/bash
+
+Ctrl-P and Ctrl-Q
+
+sudo docker attach containerid or name
+
+sudo docker container prune
+
+while true; do date ; sleep 5 ; done
+
+
+Building Image:
+
+sudo docker run -i -t ubuntu:16.04 /bin/bash
+which wget
+apt-get update
+apt-get install -y wget
+which wget
+
+
+ 
